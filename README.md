@@ -1,5 +1,5 @@
 # 🏏 Beyond The Scorecard
-### *An IPL 2026 Strategic Intelligence Suite*
+### *An IPL Strategic Intelligence Suite*
 
 ---
 
@@ -10,7 +10,7 @@ I didn't build this project just to practice Python; I built it to understand th
 
 ---
 
-## 🔍 The "Aha!" Moments (What the Data Taught Me)
+## 🔍 The Moments (What the Data Taught Me)
 
 ### 🏡 The Ahmedabad Paradox
 We all know **Shubman Gill** loves Ahmedabad, but the data showed me the *true scale* of it. His Strike Rate jumps by **31 points** at home compared to away. But here’s the kicker—while the batting thrives, **Rashid Khan’s economy climbs to 9.28** at the same venue. 
@@ -19,7 +19,7 @@ We all know **Shubman Gill** loves Ahmedabad, but the data showed me the *true s
 
 ### 🛡️ The "Bumrah-Boult" Tax
 In my model, I realized you can't just project runs based on simple averages. You have to account for "Fear Factors."
-Facing the MI opening pair of **Jasprit Bumrah and Trent Boult** (who is back with MI for the 2026 season!) is a different game entirely. I built a "Tax" into my code that suppresses projected scoring by **~30%** against these two, reflecting the technical struggle even elite batters face against high-pace swing and pinpoint yorkers.
+Facing the MI opening pair of **Jasprit Bumrah and Trent Boult** is a different game entirely. I built a "Tax" into my code that suppresses projected scoring by **~30%** against these two, reflecting the technical struggle even elite batters face against high-pace swing and pinpoint yorkers.
 
 ### 🌡️ The 40°C Decision
 A captain’s toss decision isn't just a flip of a coin. My **Toss Optimizer** weighs:
@@ -30,8 +30,8 @@ A captain’s toss decision isn't just a flip of a coin. My **Toss Optimizer** w
 ---
 
 ## 🛠️ The Engine Room
-* **Data Source:** Cricsheet (Ball-by-ball data, 2008-2026).
-* **Philosophy:** **Interpretable Intelligence.** I avoided "Black Box" AI. If the win probability shifts, my code tells you *why*—whether it's the "Wicket Penalty," the "Bumrah Tax," or the "Venue Gain."
+* **Data Source:** Cricsheet (Ball-by-ball data, 2008-2025).
+* **Philosophy:** **Interpretable Intelligence.** I avoided "Black Box" AI. If the win probability shifts, my code tells you *why* whether it's the "Wicket Penalty," the "Bumrah Tax," or the "Venue Gain."
 * **Core Logic:**
 $$Projected Total = Current + [(Rem. Overs \times Phase RPO) \times Player Mult \times Wicket Penalty]$$
 
